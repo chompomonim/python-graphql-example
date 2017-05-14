@@ -10,10 +10,11 @@ Used packages:
 * Sanic-GraphQL
 
 
-Installation
-------------
+Setup
+-----
 
-  # docker-compose build
-  # docker-compose up
+    $ docker-compose build
+  
+    $ docker-compose up
 
 Now in browser open `http://localhost:4000`
