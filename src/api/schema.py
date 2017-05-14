@@ -46,7 +46,7 @@ class Query(graphene.ObjectType):
                            id=graphene.String()
                            )
 
-    labas = graphene.String()
+    labas = graphene.String(description='A typical hello world')
 
     @resolve_only_args
     def resolve_hero(self, episode=None):
